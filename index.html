@@ -1,134 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image" href="favicon-32x32.png"
+    <link rel="icon" type="image" href="favicon-32x32.png">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css"  rel="stylesheet">
     <head>
         <title>Social media links</title>
     </head>
-    <body style="background-color: black;">
-        <style>
-            @font-face {
-                font-family: intervariable;
-                src: url(Inter-VariableFont_slnt\,wght.ttf);
-                font-weight: 400, 600, 700;
-            }
-            @font-face {
-                font-family: interregular;
-                src: url(Inter-Regular.ttf);
-                font-weight: 400, 600, 700;
-            }
-            @font-face {
-                font-family: intersemi;
-                src: url(Inter-SemiBold.ttf);
-            }
-            @font-face {
-                font-family: iterbold;
-                src: url(Inter-Bold.ttf);
-            }
-.hello{
-        width: 70%;
-        display: table;
-        display: block;
-        background-color:  hsl(0, 0%, 12%);
-        padding:20px;
-        border-radius: 20px;
-        align-items: start;
-        box-sizing: content-box;
-        position: static;
-        object-position: center;
-    }
-.t2{
-border-radius: 50%;
-}
-.b1{
-    padding: 20px;
-       max-width: 400px;
-        min-width: 300px;
-        color: white;
-        text-align: center;
-    display: inline-block;
-    text-align: center;
-border-radius: 7px;
-background-color:  hsl(0, 0%, 20%);
-font-size: 15px;
-color: white;
-font-family: iterbold;
-padding: auto;
-    border:none;
-}
-.b2{
-    padding: 20px;
-      max-width: 400px;
-        min-width: 300px;
-        color: white;
-        text-align: center;
-    display: inline-block;
-    text-align: center;
-border-radius: 7px;
-background-color:  hsl(0, 0%, 20%);
-font-size: 15px;
-color: white;
-font-family: iterbold;
-padding: auto;
-    border:none;
-}
-.b3{
-    padding: 20px;
-      max-width: 400px;
-        min-width: 300px;
-        color: white;
-        text-align: center;
-    display: inline-block;
-    text-align: center;
-border-radius: 7px;
-background-color:  hsl(0, 0%, 20%);
-font-size: 15px;
-color: white;
-font-family: iterbold;
-padding: auto;
-    border:none;
-}
-.b4{
-    padding: 20px;
-       max-width: 400px;
-        min-width: 300px;
-        color: white;
-        text-align: center;
-    display: inline-block;
-    text-align: center;
-border-radius: 7px;
-background-color:  hsl(0, 0%, 20%);
-font-size: 15px;
-color: white;
-font-family: iterbold;
-padding: auto;
-    border:none;
-}
-.b5{
-        padding: 20px;
-        color: white;
-        text-align: center;
-    display: inline-block;
-    text-align: center;
-border-radius: 7px;
-background-color:  hsl(0, 0%, 20%);
-font-size: 15px;
-color: white;
-font-family: iterbold;
-padding: auto;
-    max-width: 400px;
-        min-width: 300px;
-    border:none;
-}
-        </style>
-
-<center>
-<div class="hello">
-    <img class="t2" src="avatar-jessica.jpeg" alt="user profile">
-    <h1 style="color: aliceblue;font-family: intervariable;">Jessica Randall</h1>
-    <h3 style="color: yellowgreen;font-family:intervariable;font-size: 20px;">London,United Kingdom</h3>
+    <body>
     <br>
-    <h2 style="font-size: 16px;color: white;word-spacing: 2px;font-family: intervariable;">"Front-end developer and avid reader"</h2>
+    <br>
+
+<div class="pl-40 rounded-3xl" id="container">
+    <br>
+    <img class="rounded-full w-24" src="avatar-jessica.jpeg" alt="user profile">
+    <h1 class="text-white">Jessica Randall</h1>
+    <p class="text-green-500 text-xs">London,United Kingdom</p>
+    <br>
+    <p class="text-white text-xs">"Front-end developer and avid reader"</p>
+   <br>
     <button class="b1">GitHub</button>
     <br>
     <br>
@@ -141,8 +31,8 @@ padding: auto;
     <button class="b4">Twitter</button>
     <br><br>
     <button class="b5">Instagram</button>
-
-</center>
+<br>
+<br>
 </div>
     </body>
 </html>
